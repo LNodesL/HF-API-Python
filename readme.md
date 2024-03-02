@@ -1,3 +1,9 @@
+# HF API Python
+- You must have your own client id and secret from HackForums.net
+- Once your app is approved by staff, go back to your app in HF, click 'Edit' and add your personal or server IP to the whitelist field
+- You cannot use this library until you have your client id / secret and have added your IP to the whitelist
+- This library uses a flask server for the auth callback URL. After that you can use the HFAuth and HFBytes classes in any valid Python code
+
 Run the server first
 ```
 python server.py
