@@ -37,18 +37,21 @@ python install.py
 ## Send Bytes Web Form:
 ```
 http://127.0.0.1:8001/send-bytes
+
 # requires auth & server to be running!
 ```
 
 ## Send Bytes CLI:
 ```
 python sendBytesCLI.py 1 5 Testin Python CLI for sendbytes
+
 # format for CLI parameters: UID, Amount, Reason
 ```
 
 ## Send Bytes Script:
 ```
 python sendBytestStatic.py
+
 # uid, amount, and reason are set as variables in that file.
 ```
 
